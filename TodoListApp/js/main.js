@@ -49,7 +49,7 @@ function DisplayTodos() {
 
 
 
-    input.type='input'; //완료 표시를위해 체크박스로 설정
+    input.type='checkbox'; //완료 표시를위해 체크박스로 설정
     input.checked = todo.done; //check가 되면 todo.done
 
 
