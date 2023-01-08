@@ -8,7 +8,7 @@ function getClock(){
   const minutes = String(date.getMinutes()).padStart(2,"0");
   const seconds = String(date.getSeconds()).padStart(2,"0");
 
-  clock.innerText = `${month}월 ${day}일 ${hours}:${minutes}:${seconds}`;
+  clock.innerText = `${month}월 ${day}일 ${hours}시${minutes}분`;
 }
 getClock();
 setInterval(getClock, 1000);

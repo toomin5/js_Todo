@@ -6,6 +6,7 @@
   --grey: #888;
   --dark: #313154;
   --danger: #ff5b57;
+  --blue: #00498c;
 
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
@@ -22,6 +23,13 @@
 /*<div> 태그 등의 영역 크기를 100px으로 설정했을 때
 
 100px 이상으로 <div>가 더 튀어나와서 크기를 100px으로 딱 맞추고 싶다? box-sizing : border-box;*/ 
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: cetner;
+  margin-right: 0px;
+}
 
 input:not([type="radio"]):not([type="checkbox"]), button {
   appearance: none;
@@ -44,16 +52,16 @@ section {
 }
 
 h3{
-  color: var(--dark);
+  color: #EEE;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 h4 {
-  color: var(--grey);
-  font-size: 0.875rem;
-  font-weight: 700;
+  color: #EEE;
+  font-size: 1rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
@@ -69,14 +77,15 @@ h4 {
 
 .greeting .title,
 .greeting .title input {
-  color: var(--dark);
+  color: #ff9f40;
   font-size: 1.5rem;
   font-weight: 700;
+  margin-right: 400px;
 }
 
 .create-todo input[type="text"] {
   display: block;
-  width: 100%;
+  width: 97%;
   font-size: 1.125rem;
   padding: 1rem 1.5rem;
   color: var(--dark);
@@ -118,7 +127,7 @@ input[type="checkbox"] {
   height: 20px;
   border-radius: 50%;
   border: 2px solid var(--business);
-  box-shadow: var(--business-glow)
+  box-shadow: var(--business-glow);
 }
 
 .bubble.personal {
@@ -161,9 +170,9 @@ input:checked ~ .bubble::after {
   font-size: 1.125rem;
   padding: 1rem 1.5rem;
   color: #FFF;
-  background-color: var(--primary);
+  background-color: var(--blue);
   border-radius: 0.5rem;
-  box-shadow: var(--personal-glow);
+  box-shadow: var(--business-glow);
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
@@ -244,5 +253,19 @@ img {
   bottom: 0px;
   z-index: -1;
   opacity: 80%;
-  background-color: rgba(0, 0, 0, 0.9);
+  filter: brightness(0.7);
+}
+
+#weather {
+  font-size: 1.5rem;
+  font-weight: 500;
+  float: right;
+  margin-left: 50px;
+}
+
+#clock {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
