@@ -128,3 +128,7 @@ todoList를 생성하면서 체크박스를 통해 선택된 span클래스틀 �
 
     todos = JSON.parse(localStorage.getItem("todos")) || []; //key = todos 데이터 읽기 //JSON.parse = 문자열을 객체로변환
     const username = localStorage.getItem("username") || ""; //key = username 데이터 읽기
+    
+-----
+
+https://toomin5.github.io/TodoListApp/
