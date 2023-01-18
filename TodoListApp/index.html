@@ -1,87 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>할 일을 작성해보세요.</title>
-  <link rel="stylesheet" href="main.css"/>
-</head>
-<body>
-  <main class="app">
-    <section class="greeting">
-      <h2 class="title">
-        Good day! <input type="text" id="name" placeholder="Name here">
-        <h2 class="clock" id="clock">00:00:00</h2>
-      </h2>
-      <div id="weather">
-        <span></span>
-        <span></span>
-      </div>
-    </section>
-  <div id="under">
-    <section class="create-todo">
-      <h3>할 일을 작성해 주세요.</h3>
-      <form id="new-todo-form">
-        <input 
-          type="text" 
-          name="content" 
-          id="content" 
-          placeholder="ex)js배우기">
-        <h4>Category</h4>
-        <div class="options">
-
-          <label>
-            <input 
-              type="radio" 
-              name="category" 
-              id="category1" 
-              value="business"/>
-            <span class="bubble business"></span>
-            <div>DAILY📆</div>
-          </label>
-
-          <label>
-            <input 
-              type="radio" 
-              name="category" 
-              id="category2" 
-              value="personal"/>
-            <span class="bubble personal"></span>
-            <div>STUDY📚</div>
-          </label>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>할 일을 작성해보세요.</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="greeting">
+        <h2 class="title">
+          Good day! <input type="text" id="name" placeholder="Name here" />
+          <h2 class="clock" id="clock">00:00:00</h2>
+        </h2>
+        <div id="weather">
+          <span></span>
+          <span></span>
         </div>
+      </section>
+      <div id="under">
+        <section class="create-todo">
+          <h3>할 일을 작성해 주세요.</h3>
+          <form id="new-todo-form">
+            <input
+              type="text"
+              name="content"
+              id="content"
+              placeholder="ex)js배우기"
+            />
+            <h4>Category</h4>
+            <div class="options">
+              <label>
+                <input
+                  type="radio"
+                  name="category"
+                  id="category1"
+                  value="business"
+                />
+                <span class="bubble business"></span>
+                <div>DAILY📆</div>
+              </label>
 
-        <input type="submit" value="추가">
-      </form>
-    </section>
+              <label>
+                <input
+                  type="radio"
+                  name="category"
+                  id="category2"
+                  value="personal"
+                />
+                <span class="bubble personal"></span>
+                <div>STUDY📚</div>
+              </label>
+            </div>
 
-<!-- todo list -->
-    <section class="todo-list">
-      <h3>할 일 목록</h3>
-      <div class="list" id="todo-list">
-        <!-- <div class="todo-item">
+            <input type="submit" value="추가" />
+          </form>
+        </section>
+
+        <!-- todo list -->
+        <section class="todo-list">
+          <h3>할 일 목록</h3>
+          <div class="list" id="todo-list">
+            <!-- <div class="todo-item">
           <label>
             <input type="checkbox"/>
             <span class="bubble business"></span>
           </label>
-
           <div class="todo-content">
             <input type="text" value="비디오 만들기" readonly />
           </div>
-
           <div class="actions">
             <button class="edit">수정</button>
             <button class="delete">삭제</button>
           </div>
         </div>  -->
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
-  </main>
-  <script src="js/background.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/clock.js"></script>
-  <script src="js/weather.js"></script>
-</body>
+    </main>
+    <script src="js/background.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
 </html>
+Footer

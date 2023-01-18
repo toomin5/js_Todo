@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: cetner;
-  margin-right: 0px;
+  margin-right: 0%;
 }
 
 input:not([type="radio"]):not([type="checkbox"]), button {
@@ -53,24 +53,24 @@ body {
 }
 
 section {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 1.5rem;
-  padding-right:1.5rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 1.5%;
+  padding-right:1.5%;
 }
 
 h3{
   color: #EEE;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5%;
 }
 
 h4 {
   color: #EEE;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5%;
 }
 
 .greeting .title {
@@ -78,9 +78,9 @@ h4 {
 }
 
 .greeting .title input {
-  margin-left: 0.5rem;
+  margin-left: 0.5%;
   flex: 1 1 0%;
-  min-width: 0;
+  min-width: 0%;
 }
 
 .greeting .title,
