@@ -1,4 +1,8 @@
-# localStorage Todo List App
+# localStorage Todo List App 바닐라JS
+
+----
+
+https://toomin5.github.io/TodoListApp/
 
 ## 설명<br>
 
@@ -131,4 +135,3 @@ todoList를 생성하면서 체크박스를 통해 선택된 span클래스틀 �
     
 -----
 
-https://toomin5.github.io/TodoListApp/
